@@ -5,15 +5,7 @@ function FurtherSetup()
 	
     Compass();
     
-    var elm = document.body; // or some selection of the element you want to disable
-
-	var catcher = function(evt) {
-		if (evt.touches.length < 2)
-			evt.preventDefault();
-		};
-
-	elm.addEventListener('touchstart', catcher, true);	
-    
+    $(document.body).nodoubletapzoom();
 	
    // Setup items for this level
    SetupItems();
