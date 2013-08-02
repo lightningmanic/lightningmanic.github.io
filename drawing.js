@@ -4,8 +4,6 @@ function FurtherSetup()
 	
 	
     Compass();
-    
-    $(document.body).nodoubletapzoom();
 	
    // Setup items for this level
    SetupItems();
