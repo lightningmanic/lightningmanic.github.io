@@ -670,6 +670,9 @@ function UseSelectedItem()
 		
 	// otherwise, call this item's use function!
 	users_inventory[selected_item].use();
+
+	// remove focus from the inventory list
+	$('#inventory_list').blur();
 }
 
 
