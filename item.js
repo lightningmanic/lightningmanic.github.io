@@ -190,14 +190,14 @@ function SetupItems()
 	}
 
 	// if we haven't already, should we generate the Staff of Ra?
-	if(STAFF_CREATED == false && current_level >= 2 && (Math.floor(Math.random()*20)+1) == 1)
+	if(STAFF_CREATED == false && current_level >= 2 && (Math.floor(Math.random()*15)+1) == 1)
 	{
 		STAFF_CREATED = true;
 		level_items.push(SetupStaff());
 	}
 		
 	// if we haven't already, should we generate the Crown of Ra?
-	if(CROWN_CREATED == false && current_level >= 2 && (Math.floor(Math.random()*20)+1) == 1)
+	if(CROWN_CREATED == false && current_level >= 2 && (Math.floor(Math.random()*15)+1) == 1)
 	{
 		CROWN_CREATED = true;
 		level_items.push(SetupCrown());
