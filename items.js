@@ -51,7 +51,7 @@ function SetupScarab()
 			}
 			
 			// reset the scarab somewhere in this level
-			SetupScarab();
+			level_items.push(SetupScarab());
 			
 			UpdateInventoryList();
 			
