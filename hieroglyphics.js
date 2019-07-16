@@ -35,7 +35,7 @@ function SetupBank()
 	location_of_bank.push(Math.floor(Math.random()*HEIGHT));
 
 	// if it's at an exit, try again
-	while(IsCorner(location_of_bank[0], location_of_bank[y])){
+	while(IsCorner(location_of_bank[0], location_of_bank[1])){
 		location_of_bank = new Array();
 		location_of_bank.push(Math.floor(Math.random()*WIDTH));
 		location_of_bank.push(Math.floor(Math.random()*HEIGHT));
